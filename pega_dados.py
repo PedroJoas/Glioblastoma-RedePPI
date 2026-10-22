@@ -10,7 +10,7 @@ request_url = "/".join([string_api_url, output_format, method])
 
 # Parâmetros
 SEMENTES = ['TERT', 'PTEN', 'EGFR']
-SCORE_MIN = 0.7          # filtro de score
+SCORE_MIN = 0.8         # filtro de score
 MAX_GRAU = 4          # profundidade máxima a partir das sementes
 MAX_NOS = 3000           # limite de segurança (opcional)
 
